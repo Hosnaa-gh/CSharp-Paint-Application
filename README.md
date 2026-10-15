@@ -30,8 +30,6 @@ This was my way of learning what happens behind the tools we use every day: how 
 | Lines, rectangles and ellipses | Filled shapes and gradients | Import an image |
 | Bézier and freeform curves | Filled polygons | Export as PNG, JPEG or BMP* |
 
-<sub>*The original save-dialog code is preserved as written, including its bitmap extension filter. Some features may need further testing.</sub>
-
 ### Under the hood
 
 The interface is built with **Windows Forms**, while **GDI+** handles the drawing itself. Mouse and control events drive the tools, with different drawing modes for strokes, shapes, text, curves and image operations.
