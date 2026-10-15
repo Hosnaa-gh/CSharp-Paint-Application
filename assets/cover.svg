@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Paint. A little canvas for big ideas. C sharp Windows Forms desktop application">
+<rect width="1200" height="340" rx="20" fill="#101419"/>
+<path d="M0 290 H1200" stroke="#303940" stroke-width="1"/>
+<g opacity=".28" stroke="#39434A" stroke-width="1"><path d="M55 0V340M110 0V340M165 0V340M220 0V340M275 0V340M330 0V340M385 0V340M440 0V340M495 0V340M550 0V340M605 0V340M660 0V340M715 0V340M770 0V340M825 0V340M880 0V340M935 0V340M990 0V340M1045 0V340M1100 0V340M1155 0V340M0 55H1200M0 110H1200M0 165H1200M0 220H1200M0 275H1200M0 330H1200"/></g>
+<rect x="58" y="39" width="126" height="31" rx="15.5" fill="#26312C" stroke="#54725F"/><circle cx="76" cy="54.5" r="4" fill="#9FE6B6"/><text x="89" y="59" fill="#C7E4CE" font-family="Arial,sans-serif" font-size="12" letter-spacing="1.2">DESKTOP APP</text>
+<text x="57" y="177" fill="#F5F1E8" font-family="Arial,sans-serif" font-size="106" font-weight="700" letter-spacing="-6">Paint<tspan fill="#F4A65B">.</tspan></text>
+<text x="62" y="220" fill="#B2BDC2" font-family="Arial,sans-serif" font-size="22">A little canvas for big ideas.</text>
+<text x="62" y="308" fill="#9CA9AE" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">C#  /  WINDOWS FORMS  /  GDI+</text>
+<g transform="translate(850 35)"><rect x="15" y="18" width="290" height="240" rx="15" fill="#F2E9D9" transform="rotate(-8 160 138)"/><rect x="26" y="27" width="265" height="219" rx="8" fill="#E7E9D5" transform="rotate(-8 160 138)"/><path d="M80 184 Q123 84 175 160 T270 110" fill="none" stroke="#343D3B" stroke-width="8" stroke-linecap="round"/><circle cx="126" cy="110" r="42" fill="#FFD74A"/><path d="M48 230 L104 167 L155 210 L221 151 L295 221Z" fill="#59C99E"/><rect x="245" y="45" width="64" height="64" rx="10" fill="#FF876C" transform="rotate(13 277 77)"/><circle cx="286" cy="232" r="24" fill="#A999F5"/></g>
+</svg>
