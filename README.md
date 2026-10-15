@@ -1,39 +1,69 @@
-# C# Paint Application
+<div align="center">
+  <img src="assets/cover.svg" width="100%" alt="Paint — A little canvas for big ideas" />
+</div>
 
-A desktop painting application created with **C#**, **Windows Forms**, and **System.Drawing (GDI+)**.
+<br>
 
-## Features
+**A small desktop drawing studio, built from scratch in C#.**
 
-- Freehand drawing and eraser tools
-- Lines, rectangles, ellipses, and filled shapes
-- Bézier curves, polygons, and curves
-- Text placement and colour selection
-- Gradient-filled rectangles
-- Image loading and saving (JPEG, BMP, PNG options)
+This was my way of learning what happens behind the tools we use every day: how a mouse movement becomes a brushstroke, how a handful of points becomes a curve, and how a Windows Forms interface can feel like a real creative workspace.
 
-## Technology
+`C#` &nbsp; · &nbsp; `Windows Forms` &nbsp; · &nbsp; `System.Drawing / GDI+` &nbsp; · &nbsp; `.NET 5 (original)`
 
-- C# / Windows Forms
-- .NET 5.0 (original project target; **out of support**)
-- System.Drawing / GDI+
+---
 
-## Open the project
+### On the canvas
 
-1. Use **Windows** and Visual Studio with the **.NET desktop development** workload.
-2. Open `Paint_/Paint_.csproj` in Visual Studio.
-3. Restore any required .NET 5 targeting/runtime components if prompted. .NET 5 is no longer supported; consider using an isolated development environment for older projects.
-4. Build and run the application.
+<div align="center">
+  <img src="assets/paint-preview.png" width="760" alt="Actual Paint application window, showing hand-drawn shapes, colourful gradients, a tree, text and the drawing toolbar" />
+  <br>
+  <sub>Actual screenshot of the running application — no mock-up.</sub>
+</div>
 
-> **Note:** This repository preserves the original project source and target framework without modification. The code has not been build-tested as part of preparing this repository. Some features may have existing limitations or bugs.
+<br>
 
-## Repository layout
+### What you can make
 
-- `Paint_/Form1.cs` — painting logic and UI events
-- `Paint_/Form1.Designer.cs` — Windows Forms layout
-- `Paint_/Program.cs` — application entry point
-- `Paint_/Resources/` — image assets
-- `Paint_/Paint_.csproj` — project configuration
+| Draw | Experiment | Keep |
+| :--- | :--- | :--- |
+| Freehand strokes and erasing | Custom colours and brush sizes | Place text on the canvas |
+| Lines, rectangles and ellipses | Filled shapes and gradients | Import an image |
+| Bézier and freeform curves | Filled polygons | Export as PNG, JPEG or BMP* |
 
-## About
+<sub>*The original save-dialog code is preserved as written, including its bitmap extension filter. Some features may need further testing.</sub>
 
-A personal C# desktop application project shared as part of my programming portfolio.
+### Under the hood
+
+The interface is built with **Windows Forms**, while **GDI+** handles the drawing itself. Mouse and control events drive the tools, with different drawing modes for strokes, shapes, text, curves and image operations.
+
+Rather than a web-based drawing demo, this is a native **Windows desktop project** — a hands-on exercise in event-driven programming, UI design and 2D graphics.
+
+### Open the project
+
+1. Download this repository (**Code → Download ZIP**) or clone it.
+2. On Windows, open `Paint_/Paint_.csproj` in Visual Studio.
+3. Install the **.NET desktop development** workload and the tooling required for the original **.NET 5** target.
+4. Build and run the project with **F5**.
+
+> **A note on the original build:** This repository keeps my original source and project configuration. .NET 5 is no longer supported, so running it on a modern setup may require legacy targeting components. I have not independently verified a fresh build on every environment.
+
+### Inside the repository
+
+```text
+Paint_/
+├── Form1.cs             Drawing tools and mouse events
+├── Form1.Designer.cs    Interface layout
+├── Form1.resx           Form resources
+├── Program.cs           Application entry point
+├── Paint_.csproj        Original project configuration
+├── Properties/          Resource definitions
+└── Resources/           Interface graphics
+
+assets/
+├── cover.svg            README artwork
+└── paint-preview.png    Real application screenshot
+```
+
+---
+
+<sub>**An early C# project, kept as I originally built it.** The code is presented as a record of the work, not as a rewritten or modernised application.</sub>
