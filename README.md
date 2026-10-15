@@ -17,7 +17,7 @@ This was my way of learning what happens behind the tools we use every day: how 
 <div align="center">
   <img src="assets/paint-preview.png" width="760" alt="Actual Paint application window, showing hand-drawn shapes, colourful gradients, a tree, text and the drawing toolbar" />
   <br>
-  <sub>Actual screenshot of the running application — no mock-up.</sub>
+  <sub>Actual screenshot of the running application .</sub>
 </div>
 
 <br>
